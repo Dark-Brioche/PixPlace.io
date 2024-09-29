@@ -17,7 +17,6 @@ Controls:
 W, A, S, D, click and drag or pan: Move
 Q, E or scroll or pinch: Zoom
 Click or tab: Place Pixel
-![screenshot](promotion/screenshot.png)
 
 
 ## Build
