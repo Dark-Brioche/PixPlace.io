@@ -1,7 +1,7 @@
-# PixelPlanet.fun
+# PixPlace.IO
 
 
-[![Guilded](https://img.shields.io/badge/Discord-Support-blue.svg)](https://pixelplanet.fun/guilded)
+[![Guilded](https://img.shields.io/badge/Discord-Support-blue.svg)](https://pixplace.io/discord)
 
 Official  repository of [pixelplanet.fun](http://www.pixelplanet.fun).
 
