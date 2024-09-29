@@ -1,0 +1,39 @@
+apps:
+  - script     : ./server.js
+    name       : 'ppfun'
+    node_args  : --nouse-idle-notification --expose-gc
+    watch      : [ 'server.js' ]
+    watch_delay: 5000
+    env:
+      PORT: 80
+      HOST: "109.176.197.15"
+      #HOST: "localhost"
+      REDIS_URL: 'redis://localhost:6379'
+      MYSQL_HOST: "localhost"
+      MYSQL_USER: "root"
+      MYSQL_DATABASE: "pixelplanet"
+      MYSQL_PW: "sqlpassword"
+      SESSION_SECRET: "ayyylmao"
+
+      HOURLY_EVENT: 1
+      ADMIN_IDS: '4, 5'
+      USE_XREALIP: 1
+
+      USE_PROXYCHECK: 1
+      PROXYCHECK_KEY: "252a9h-325876-6d9xb2-6r8889"
+
+      BACKUP_URL: "http://localhost:8090"
+      BACKUP_DIR: '/var/www/backup/'
+
+
+      GUILDED_INVITE: 'https://discord.gg/2cZQDS3z5a'
+
+      DISCORD_CLIENT_ID: "1215355686460989571"
+      DISCORD_CLIENT_SECRET: "OZlJPPuSW6bitWl2t8VGQqrzIlZLJCf8"
+
+      GOOGLE_CLIENT_ID: "95304552873-n0ptv1ap587i3rn3vfcv44r4t51mv4ia.apps.googleusercontent.com"
+      GOOGLE_CLIENT_SECRET: "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"
+
+      REDDIT_CLIENT_ID: "-LTnl-8ma1rB2AFfLSfi_A"
+      REDDIT_CLIENT_SECRET: "xW8Elwe6iavwVisF0KrpnUnb0oPI7g"
+

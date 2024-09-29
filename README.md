@@ -1,11 +1,15 @@
-# PixPlace.IO
+# PixelPlanet.fun
 
 
-[![Guilded](https://img.shields.io/badge/Discord-Support-blue.svg)](https://discord.gg/kdhXGjG8Qt)
+[![Guilded](https://img.shields.io/badge/Discord-Support-blue.svg)](https://pixelplanet.fun/guilded)
 
-Official  repository of [pixplace.io](http://www.pixplace.io).
+Official  repository of [pixelplanet.fun](http://www.pixelplanet.fun).
 
 ![videothumb](promotion/videothumb.gif)
+
+> Our translations are hosted [on Weblate](https://hosted.weblate.org/projects/pixelplanet), information on how to contribute is available under [i18n](./i18n). We very much appreciate any help. 
+
+[![Translation status](https://hosted.weblate.org/widget/pixelplanet/svg-badge.svg)](https://hosted.weblate.org/engage/pixelplanet/)
 
 To the 2nd anniversary of r/space, pixelplanet takes pixelgames to a new level. Place pixels, create pixelart and fight faction wars on pixelplanet.fun.
 Pixelplanet is a 65k x 65k large canvas that is a map of the world and can also be seen as 3d globe, you can place pixels where ever you want, build an island, take over another country with a flag or just create pixelart.
@@ -17,6 +21,7 @@ Controls:
 W, A, S, D, click and drag or pan: Move
 Q, E or scroll or pinch: Zoom
 Click or tab: Place Pixel
+![screenshot](promotion/screenshot.png)
 
 
 ## Build
