@@ -1,6 +1,6 @@
 # Pixplace.io
 
-[![Guilded](https://img.shields.io/badge/Discord-Support-blue.svg)](https://pixplace.io/guilded)
+[![Guilded](https://img.shields.io/badge/Discord-Support-blue.svg)](https://discord.gg/uWdaM6h4EQ)
 
 Official repository of [pixplace.io](http://www.pixplace.io).
 
