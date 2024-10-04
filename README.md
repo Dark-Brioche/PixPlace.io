@@ -1,28 +1,26 @@
-# PixelPlanet.fun
+# Pixplace.io
 
+[![Guilded](https://img.shields.io/badge/Discord-Support-blue.svg)](https://pixplace.io/guilded)
 
-[![Guilded](https://img.shields.io/badge/Discord-Support-blue.svg)](https://pixelplanet.fun/guilded)
-
-Official  repository of [pixelplanet.fun](http://www.pixelplanet.fun).
+Official repository of [pixplace.io](http://www.pixplace.io).
 
 ![videothumb](promotion/videothumb.gif)
 
-> Our translations are hosted [on Weblate](https://hosted.weblate.org/projects/pixelplanet), information on how to contribute is available under [i18n](./i18n). We very much appreciate any help. 
+> Our translations are hosted [on Weblate](https://hosted.weblate.org/projects/pixplace), information on how to contribute is available under [i18n](./i18n). We very much appreciate any help.
 
-[![Translation status](https://hosted.weblate.org/widget/pixelplanet/svg-badge.svg)](https://hosted.weblate.org/engage/pixelplanet/)
+[![Translation status](https://hosted.weblate.org/widget/pixplace/svg-badge.svg)](https://hosted.weblate.org/engage/pixplace/)
 
-To the 2nd anniversary of r/space, pixelplanet takes pixelgames to a new level. Place pixels, create pixelart and fight faction wars on pixelplanet.fun.
-Pixelplanet is a 65k x 65k large canvas that is a map of the world and can also be seen as 3d globe, you can place pixels where ever you want, build an island, take over another country with a flag or just create pixelart.
-30 well chosen colors (decided by polls within the community) are available and you can place a pixel every 3s on an empty space, and 5s on an already set pixel. But pixels can be stacked up to a minute, so you don't have to wait every time.
+To the 2nd anniversary of r/space, Pixplace.io takes pixelgames to a new level. Place pixels, create pixelart, and fight faction wars on pixplace.io.  
+Pixplace.io is a 65k x 65k large canvas that is a map of the world and can also be seen as a 3D globe. You can place pixels wherever you want, build an island, take over another country with a flag, or just create pixelart.  
+30 well-chosen colors (decided by polls within the community) are available, and you can place a pixel every 3 seconds on an empty space, and 5 seconds on an already set pixel. Pixels can be stacked up to a minute, so you don't have to wait every time.
 
-Pixelplanet receives regular updates and launches events, like a zero second cooldown day on r/place anniversary. We are driven by our community, because placing pixels is more fun together.
+Pixplace.io receives regular updates and launches events, like a zero-second cooldown day on r/place anniversary. We are driven by our community, because placing pixels is more fun together.
 
-Controls:
-W, A, S, D, click and drag or pan: Move
-Q, E or scroll or pinch: Zoom
-Click or tab: Place Pixel
+Controls:  
+W, A, S, D, click and drag or pan: Move  
+Q, E or scroll or pinch: Zoom  
+Click or tab: Place Pixel  
 ![screenshot](promotion/screenshot.png)
-
 
 ## Build
 ### Requirements
@@ -32,8 +30,8 @@ Click or tab: Place Pixel
 Checkout repository
 
 ```
-git clone https://git.pixelplanet.fun/ppfun/pixelplanet.git
-cd pixelplanet
+git clone https://git.pixplace.io/ppfun/pixplace.git
+cd pixplace
 ```
 
 Install packages and build
@@ -43,14 +41,14 @@ npm install
 npm run build
 ```
 
-All needed files to run it got created in `./dist`. You can copy it to wherever you want to run pixelplanet.
+All needed files to run it got created in `./dist`. You can copy it to wherever you want to run pixplace.io.
 
 ## Run
 ### Requirements
 
 - [nodejs environment](https://nodejs.org/en/) (>=18)
-- [redis](https://redis.io/) or [redis-for-windows](https://github.com/redis-windows/redis-windows) as database for storìng the canvas 
-- mysql or mariadb ([setup own user](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql) and [create database](https://www.w3schools.com/SQl/sql_create_db.asp) for pixelplanet) for storing additional data like IP blacklist
+- [redis](https://redis.io/) or [redis-for-windows](https://github.com/redis-windows/redis-windows) as database for storing the canvas  
+- mysql or mariadb ([setup own user](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql) and [create database](https://www.w3schools.com/SQl/sql_create_db.asp) for pixplace.io) for storing additional data like IP blacklist
 
 ### Configuration
 Configuration takes place in the environment variables that are defined in ecosystem.yml.
@@ -63,9 +61,9 @@ Configuration takes place in the environment variables that are defined in ecosy
 | HOST           | Own Host                 | "localhost"             |
 | REDIS_URL      | URL:PORT of redis server | "redis://localhost:6379"|
 | MYSQL_HOST     | MySql Host               | "localhost"             |
-| MYSQL_USER     | MySql User               | "pixelplanet"           |
+| MYSQL_USER     | MySql User               | "pixplace"              |
 | MYSQL_PW       | MySql Password           | "sqlpassword"           |
-| MYSQL_DATABASE | MySql Database           | "pixelplanet"           |
+| MYSQL_DATABASE | MySql Database           | "pixplace"              |
 
 #### Optional Configuration
 
@@ -83,8 +81,8 @@ Configuration takes place in the environment variables that are defined in ecosy
 | BACKUP_URL        | url of backup server (see Backup)     | "http://localhost"        |
 | BACKUP_DIR        | mounted directory of backup server    | "/mnt/backup/"            |
 | HOURLY_EVENT      | run hourly void event on main canvas  | 1                         |
-| USE_MAILER        | enable to use mail sevicse            | 0                         |
-| MAIL_ADDRESS      | email address for sending mails       | "noreply@pixelplanet.fun" |
+| USE_MAILER        | enable to use mail services           | 0                         |
+| MAIL_ADDRESS      | email address for sending mails       | "noreply@pixplace.io"     |
 
 #### Social Media Configuration
 
